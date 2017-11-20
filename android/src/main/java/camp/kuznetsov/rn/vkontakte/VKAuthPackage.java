@@ -22,7 +22,6 @@ public class VKAuthPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList();
     }
